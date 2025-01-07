@@ -1,9 +1,9 @@
 
 # ChatGPT Coding Diary
 
-## Project Name: _[Insert project name]_
+## Project Name: _Maze Thing_
 
-### Date: _[Insert date]_
+### Date: _1/7/2025_
 
 ---
 
@@ -11,8 +11,7 @@
 
 Briefly describe the problem you're trying to solve or the task you're working on.
 
-Example:
-> I need to write a program that sorts a list of integers in ascending order.
+> I am writing a program to create a maze that the player can navigate through.
 
 ---
 
