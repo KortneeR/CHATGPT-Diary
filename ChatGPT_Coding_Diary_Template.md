@@ -20,9 +20,17 @@ Briefly describe the problem you're trying to solve or the task you're working o
 Describe the initial approach you took to solving the problem. If you started writing code, include it here.
 
 ```python
-# Example: Initial sorting function
-def sort_numbers(numbers):
-    return sorted(numbers)
+
+player_pos = [1, 1] 
+
+def print_maze():
+    for r in range(len(maze)):
+        for c in range(len(maze[r])):
+            if [r, c] == player_pos:
+                print('P', end=' ')
+            else:
+                print(maze[r][c], end=' ') 
+        print()
 ```
 
 - What was your plan for solving the problem?
@@ -35,16 +43,10 @@ def sort_numbers(numbers):
 ### Questions/Requests to ChatGPT
 Write down the questions or requests you made to ChatGPT. 
 Also include what code from ChatGPT you are unsure of and craft a question that asks for further clarification. 
- For example:
 
-- "How do I reverse a list in Python?"
+- "How can I customize a maze using ascii? "
 - "Can you suggest a more efficient way to sort a list?"
 - Why did ChatGPT opt for create element when my teacher suggested insertAdjacentHTML?
-
-```text
-# Example prompt to ChatGPT:
-How can I optimize this sorting function for large datasets?
-```
 
 ---
 
