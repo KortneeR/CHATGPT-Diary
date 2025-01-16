@@ -21,20 +21,31 @@ Describe the initial approach you took to solving the problem. If you started wr
 
 ```python
 
-player_pos = [1, 1] 
-
-def print_maze():
-    for r in range(len(maze)):
-        for c in range(len(maze[r])):
-            if [r, c] == player_pos:
-                print('P', end=' ')
-            else:
-                print(maze[r][c], end=' ') 
-        print()
+def puzzle_one():
+    if player_pos == [5, 5]:
+        print("what has hands but cannot clap?")
+        answer_one = "a clock".upper()
+        user_input = input("Your answer: ").upper()
+        if user_input == answer_one:
+            print("what is not living, but can die?")
+            answer_two = "a battery".upper()
+            user_input = input("Your answer: ").upper()
+            if user_input == answer_two:
+                print("i have keys but no locks. I have space but no room. you can enter but you can't go outside. what am I?")
+                answer_three = "a keyboard".upper()
+                user_input = input("Your answer: ").upper()
+                if user_input == answer_three:
+                    print("wowie, first puzzle done!")
+ 
 ```
 
 - What was your plan for solving the problem?
+
+My problem was the error handling system not functioning. 
+
 - Did you have any initial thoughts or strategies before using ChatGPT?
+
+I reorganized it in different ways but it still did not work. 
 
 ---
 
@@ -44,9 +55,9 @@ def print_maze():
 Write down the questions or requests you made to ChatGPT. 
 Also include what code from ChatGPT you are unsure of and craft a question that asks for further clarification. 
 
-- "How can I customize a maze using ascii? "
-- "Can you suggest a more efficient way to sort a list?"
-- Why did ChatGPT opt for create element when my teacher suggested insertAdjacentHTML?
+- "How can I customize a maze using ascii?"
+- "How to call the puzzle function the momemnt the player interacts with the number icon?"
+- "How to use a variable in multiple locations?"
 
 ---
 
